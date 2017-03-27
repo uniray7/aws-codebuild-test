@@ -3,19 +3,19 @@ version: 0.1
 environment_variables:
   plaintext:
     key: "value"
-  phases:
-    install:
-      commands:
-        - echo $key
-        - npm install
-    pre_build:
-      commands:
-        - npm test
-    build:
-      commands:
-        - npm build
-  artifacts:
-    files:
-      - public/dist/sdk.js
-    discard-paths: yes
-    base-directory: location
+phases:
+  install:
+    commands:
+      - echo $key
+      - npm install
+  pre_build:
+    commands:
+      - npm test
+  build:
+    commands:
+      - npm build
+artifacts:
+  files:
+    - public/dist/sdk.js
+  discard-paths: yes
+  base-directory: location
