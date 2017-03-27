@@ -25,4 +25,3 @@ artifacts:
   files:
     - ./public/dist/sdk.js
   discard-paths: yes
-  base-directory: location
