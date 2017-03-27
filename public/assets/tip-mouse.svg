@@ -1,0 +1,71 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .contour, .body {
+      stroke: null;
+      storke-width: 1px;
+      fill-rule: evenodd;
+    }
+    .contour {
+      fill: #7F7F7F;
+    }
+    .body {
+      fill: #EEEEEE;
+    }
+    .left-btn {
+      fill: #E0BCC9;
+    }
+    #mouse {
+      -webkit-animation: spin 4s infinite linear;
+      -moz-animation: spin 4s infinite linear;
+      -o-animation: spin 4s infinite linear;
+      -ms-animation: spin 4s infinite linear;
+      animation: spin 4s infinite linear;
+      -webkit-transform-origin: 50% 75%;
+      -moz-transform-origin: 50% 75%;
+      -o-transform-origin: 50% 75%;
+      -ms-transform-origin: 50% 75%;
+      transform-origin: 50% 75%;
+    }
+    @-webkit-keyframes spin {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(30deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-30deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @-moz-keyframes spin {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(30deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-30deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @-o-keyframes spin {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(30deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-30deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @-ms-keyframes spin {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(30deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-30deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(30deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-30deg); }
+      100% { transform: rotate(0deg); }
+    }
+  </style>
+  <g id="mouse" display="inline">
+    <path class="contour" d="m24.000019,7.405521c-11.408159,0 -11.425779,8.977398 -11.425779,8.977398l0,14.690287c0,0 -0.1253,8.933041 11.390294,8.933041c11.41002,0 11.461264,-8.933041 11.461264,-8.933041l0,-14.690287c0,0 0.088827,-8.977398 -11.425779,-8.977398z"/>
+    <path class="body" d="m33.852941,18.636028c0,-5.827205 -1.437501,-9.16544 -9.470587,-9.900734l0.147059,9.900734l9.323528,0z"/>
+    <path class="body"  d="m14,19.529412l20,0l0,11c0,0 0.98,8 -10,8c-10.9148,0 -10,-8 -10,-8l0,-11z"/>
+    <path class="body left-btn" d="m14,18.48897c-0.294117,-5.974265 3.496323,-9.753676 9.323529,-9.753676l0,9.753676l-9.323529,0z"/>
+  </g>
+</svg>

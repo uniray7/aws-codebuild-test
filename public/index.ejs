@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><%= config.title %></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+<!--
+    <script>
+      !function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",["<%= sdk %>"])
+    </script>
+-->
+    <script src="<%= sdk %>"></script>
+    <script src="<%= demo %>"></script>
+    <form id="add-form" style="display: none;">
+      post id:
+      <input id="add-id" type="text">
+      <button id="add-btn" type="button">add</button>
+      <button id="gen-btn" type="button" disabled="true">Generate new page</button><br />
+      <textarea id="add-msg" rows="4" cols="50" disabled="true"></textarea>
+    </form>
+  </body>
+</html>

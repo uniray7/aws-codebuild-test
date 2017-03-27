@@ -1,0 +1,2 @@
+require('./livephoto');
+require('./panophoto');

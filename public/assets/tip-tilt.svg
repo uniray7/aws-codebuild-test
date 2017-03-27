@@ -1,0 +1,61 @@
+<svg width="183" height="136" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    .arrows, .phone {
+      fill: #EEEEEE;
+      stroke: #7F7F7F;
+    }
+    .screen {
+      fill: #E0BCC9;
+    }
+    .phone, .screen {
+      -webkit-animation: spin 2s infinite linear;
+      -moz-animation: spin 2s infinite linear;
+      -o-animation: spin 2s infinite linear;
+      -ms-animation: spin 2s infinite linear;
+      animation: spin 2s infinite linear;
+      -webkit-transform-origin: 50% 50%;
+      -moz-transform-origin: 50% 50%;
+      -o-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+    }
+    @-webkit-keyframes spin {
+      0% { transform: perspective(600px) rotateY(0deg); }
+      25% { transform: perspective(600px) rotateY(60deg); }
+      50% { transform: perspective(600px) rotateY(0deg); }
+      75% { transform: perspective(600px) rotateY(-35deg); }
+      100% { transform: perspective(600px) rotateY(0deg); }
+    }
+    @-moz-keyframes spin {
+      0% { transform: perspective(600px) rotateY(0deg); }
+      25% { transform: perspective(600px) rotateY(60deg); }
+      50% { transform: perspective(600px) rotateY(0deg); }
+      75% { transform: perspective(600px) rotateY(-35deg); }
+      100% { transform: perspective(600px) rotateY(0deg); }
+    }
+    @-o-keyframes spin {
+      0% { transform: perspective(600px) rotateY(0deg); }
+      25% { transform: perspective(600px) rotateY(60deg); }
+      50% { transform: perspective(600px) rotateY(0deg); }
+      75% { transform: perspective(600px) rotateY(-35deg); }
+      100% { transform: perspective(600px) rotateY(0deg); }
+    }
+    @-ms-keyframes spin {
+      0% { transform: perspective(600px) rotateY(0deg); }
+      25% { transform: perspective(600px) rotateY(60deg); }
+      50% { transform: perspective(600px) rotateY(0deg); }
+      75% { transform: perspective(600px) rotateY(-35deg); }
+      100% { transform: perspective(600px) rotateY(0deg); }
+    }
+    @keyframes spin {
+      0% { transform: perspective(600px) rotateY(0deg); }
+      25% { transform: perspective(600px) rotateY(60deg); }
+      50% { transform: perspective(600px) rotateY(0deg); }
+      75% { transform: perspective(600px) rotateY(-35deg); }
+      100% { transform: perspective(600px) rotateY(0deg); }
+    }
+  </style>
+  <path class="arrows" d="m64.55,75.3c-2.7,-0.3 -5.3,-0.6 -7.9,-1c-6.4,-1.4 -14.7,-2.8 -18.9,-8.6c-1,-2.2 -0.2,-4.5 1.4,-6c6.4,-5.6 16.5,-7.4 24.8,-9.1c0,-0.3 0,-0.6 0.1,-0.9c-12.5,1.6 -25.7,3.9 -37.4,9.6c-4,2.3 -8.6,5 -9.1,10.3c0.2,4.4 4.1,6.7 7.5,8.8c13,6.3 26.5,7.9 39.9,8.9l0,-0.3l-0.4,-11.7zm90.6,-19.2c-12.2,-5.1 -24.9,-6.5 -37.5,-7.4c0,0.3 0.1,0.6 0.1,0.8c7.8,0.8 15.6,2 23.1,6c2.2,1.4 4.5,3.6 3.9,6.5c-1.6,3.8 -5.1,5.6 -8.7,7.2c-5.7,2 -11.4,3.5 -17.1,4.6l0,7.4l-0.3,5c10.8,-1.2 21.6,-3.5 32.4,-7.4c5.9,-3 13.6,-5.3 14.4,-12.9c-1,-4.9 -5.5,-7.7 -10.3,-9.8z" />
+  <path class="phone" d="m110.246829,23.412945l-37.493655,0c-3.546697,0 -6.485389,2.938692 -6.485389,6.485389l0,76.20332c0,3.546697 2.938692,6.485389 6.485389,6.485389l37.493655,0c3.546697,0 6.485389,-2.938692 6.485389,-6.485389l0,-76.20332c0,-3.648031 -2.837358,-6.485389 -6.485389,-6.485389zm-27.461569,4.661373l17.429483,0l0,1.92535l-17.429483,0l0,-1.92535zm16.618809,77.621999l-15.808136,0l0,-4.864042l15.808136,0l0,4.864042zm12.464107,-10.032086l-40.736349,0l0,-61.307192l40.837684,0l0,61.307192l-0.101334,0z" />
+  <rect class="screen" height="60.000001" width="40.186919" y="35.009348" x="71.40654" />
+</svg>
