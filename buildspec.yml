@@ -13,7 +13,7 @@ phases:
       - npm test
   build:
     commands:
-      - npm build
+      - npm run build
 artifacts:
   files:
     - public/dist/sdk.js
