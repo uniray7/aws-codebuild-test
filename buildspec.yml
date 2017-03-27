@@ -14,8 +14,15 @@ phases:
   build:
     commands:
       - npm run build
+  post_build:
+    commands:
+      - pwd
+      - ls
+      - ls ./public
+      - ls public
+      - ls public/dist
 artifacts:
   files:
-    - public/dist/sdk.js
+    - ./public/dist/sdk.js
   discard-paths: yes
   base-directory: location
